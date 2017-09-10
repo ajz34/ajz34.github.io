@@ -4,3 +4,5 @@ main:
     url: /post/
   - title: "分类目录"
     url: /categories/
+  - title: "关于"
+    url: /about/
