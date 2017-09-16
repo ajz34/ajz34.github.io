@@ -16,21 +16,12 @@ author_profile: true
 * 随笔区，简单记录一些技术问题处理方式作为备忘
 * 关于 Goldstone Antisymmetric Diagram 在 LaTeX 中的绘制做法
 
-## 2017 学年秋季学期课程安排
+## 关于墙的问题
 
-| | 周一 | 周二 | 周三 | 周四 | 周五 |
-| ---:|:---:|:---:|:---:|:---:|:---:|
-| 1 |  |  |  | 高等有机<br>JA103 |  |
-| 2 |  |  | 机器学习理论<br>Z2402 | 高等有机<br>JA103 | 统计热力学<br>JA102 |
-| 3 | 高等无机<br>（单）JA203 | 量化原理应用<br>JB105 | 机器学习理论<br>Z2402 | 高等无机<br>JA103 | 统计热力学<br>JA102 |
-| 4 | 高等有机<br>（双）JA203 | 量化原理应用<br>JB105 | 机器学习理论<br>Z2402 | 高等无机<br>JA103 | 统计热力学<br>JA102 |
-| 5 |  | 量化原理及应用<br>JB105 |  |  |  |
-| 6 | 社会主义理论实践<br>H3106 |  |  |  | 化学工艺学<br>JA306 |
-| 7 | 社会主义理论实践<br>H3106 |  |  |  | 化学工艺学<br>JA306 |
-| 8 |  |  |  |  |  |
-| 9 |  |  |  |  |  |
-| 10 |  |  |  |  |  |
-| 11 |  |  | 电化学前沿<br>JA206 |  |  |
-| 12 |  |  | 电化学前沿<br>JA206 |  |  |
-| 13 |  |  |  |  |  |
+若要查看下面的一些内容，请使用中国大陆区以外的 IP：
+
+* 一些博文启用了评论功能，评论功能的平台选用了 Disqus。
+* 在本页面最后有 Google 日历插件。
+
+<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=andrewzhu06%40gmail.com&amp;color=%231B887A&amp;ctz=Asia%2FShanghai" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
