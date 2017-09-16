@@ -21,7 +21,7 @@ author_profile: true
 若要查看下面的一些内容，请使用中国大陆区以外的 IP：
 
 * 一些博文启用了评论功能，评论功能的平台选用了 Disqus。
-* 在本页面最后有 Google 日历插件。
+* 在本页面最后有 Google 日历插件，显示有最近几日的日程。
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=andrewzhu06%40gmail.com&amp;color=%231B887A&amp;ctz=Asia%2FShanghai" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
