@@ -118,6 +118,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _notes
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -238,9 +239,25 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  posts:
+    output: true
+  notes:
+    output: true
 
 # Defaults
 defaults:
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _posts
   - scope:
       path: ""
