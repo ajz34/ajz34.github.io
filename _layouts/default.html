@@ -53,5 +53,24 @@ MathJax.Hub.Config({
 -->
   
 <!-- mathjax network setting -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML&locale=zh-hans'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML&locale=zh-hans'>
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["boldsymbol.js"],
+      Macros: {
+        bm: ["\\boldsymbol{#1}",1]
+      }
+    }
+  });
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
 
