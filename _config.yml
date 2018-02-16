@@ -145,7 +145,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-# - /assets/MathJax # Ignore local mathjax to decrease time
+  - /assets/MathJax # Ignore local mathjax to decrease time
 keep_files:
   - .git
   - .svn
