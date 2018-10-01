@@ -1,0 +1,26 @@
+from SCF_Program import *
+
+
+if __name__ == "__main__":
+    print("This is a program intended to calculate energy of H2O.")
+    mol_h2o = Molecule()
+    mol_h2o.hard_type_orbital_rhf("Gaussian/H2O.out")
+    mol_h2o.hard_type_int_rhf("Gaussian/H2O.out")
+    print("*** Input ***")
+    print("Number of AO: ", mol_h2o.num_ao)
+    print("Number of occupied orbitals: ", mol_h2o.num_occ)
+    print("Nuclei repulsion energy: ", mol_h2o.val_neu_repulsion_energy)
+    print("Core Hamiltonian:")
+    print_mat(mol_h2o.mat_core_hamiltonian)
+    print("Basis function overlap:")
+    print_mat(mol_h2o.mat_overlap)
+    print("Two-electron integral for 0 < m, n < 6")
+    print("(11|mn)")
+    print_mat(mol_h2o.tsr_twoe_int[0, 0, :5, :5])
+    print("(12|mn)")
+    print_mat(mol_h2o.tsr_twoe_int[0, 1, :5, :5])
+    print("(22|mn)")
+    print_mat(mol_h2o.tsr_twoe_int[1, 1, :5, :5])
+    mol_h2o.scf_rhf()
+    print("Energy of System:")
+    print(mol_h2o.val_neu_repulsion_energy + mol_h2o.val_SCF_energy)
