@@ -1,8 +1,0 @@
-#p hf/6-31g scf(nodiis,conventional) extralink=l316 noraff iop(3/33=3) nosymm
-
-Test
-
-0 1
-O
-H 1 0.94
-H 1 0.94 2 104.5
